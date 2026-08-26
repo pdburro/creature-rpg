@@ -23,3 +23,6 @@ Desktop.ini
 
 # OneDrive conflict copies
 *conflicted copy*
+
+# Generated development reports
+project-validation.txt
