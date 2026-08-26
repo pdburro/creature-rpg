@@ -1,0 +1,25 @@
+# Runtime save files
+Game.rxdata
+Save*.rxdata
+*.rxdata.bak
+
+# Logs, crash dumps, and temporary files
+*.log
+*.tmp
+*.bak
+*.dmp
+*~
+
+# Local configuration and secrets
+.env
+.env.*
+
+# Editor and operating-system files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# OneDrive conflict copies
+*conflicted copy*

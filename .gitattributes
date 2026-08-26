@@ -1,0 +1,31 @@
+# RPG Maker and compiled Essentials data
+*.rxdata binary
+*.dat binary
+
+# Executables, libraries, fonts, and archives
+*.exe binary
+*.dll binary
+*.sf2 binary
+*.ttf binary
+*.zip binary
+
+# Images and project art
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.bmp binary
+*.pdn binary
+
+# Audio
+*.ogg binary
+*.mp3 binary
+*.wav binary
+*.mid binary
+
+# Reviewable source/configuration
+*.rb text eol=crlf
+*.txt text eol=crlf
+*.ini text eol=crlf
+*.json text eol=lf
+*.md text eol=lf
