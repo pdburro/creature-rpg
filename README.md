@@ -23,6 +23,9 @@ powershell -ExecutionPolicy Bypass -File tools/validate_project.ps1
 See `docs/PROJECT_BASELINE.md` for the current content boundary, known issues,
 and the recommended workflow.
 
+See `docs/CURRENT_GOAL.md` for the active Pokémon-assisted farming vertical
+slice, its objectives, checkpoints, and definition of completion.
+
 ## Repository conventions
 
 - Commit PBS text changes together with their recompiled `Data` files.
