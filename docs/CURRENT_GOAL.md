@@ -46,11 +46,11 @@ following loop without developer intervention:
 
 Goal: Make custom Ruby development safe and reviewable.
 
-- [ ] Restore or export the editable Pokémon Essentials v21.1 script sources.
+- [x] Restore or export the editable Pokémon Essentials v21.1 script sources.
 - [ ] Confirm the exported sources reproduce the current game without behavior
       changes.
-- [ ] Decide where original scripts and data definitions will live.
-- [ ] Add a repeatable smoke-test checklist for launching, loading, saving, and
+- [x] Decide where original scripts and data definitions will live.
+- [x] Add a repeatable smoke-test checklist for launching, loading, saving, and
       starting a new game.
 - [ ] Commit the restored source tree separately from gameplay changes.
 
@@ -263,4 +263,5 @@ Record completed milestones here with the date and commit ID.
 | Date | Milestone | Commit | Notes |
 | --- | --- | --- | --- |
 | 2026-08-26 | Clean project baseline | `11e02a1c` | Documentation and validator added. |
+| 2026-08-30 | Script extraction started | Pending | 312 v21.1 Ruby sources extracted; smoke test required. |
 

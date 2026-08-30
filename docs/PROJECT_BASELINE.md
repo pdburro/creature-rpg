@@ -37,9 +37,13 @@ build story progression on those connections until they have been inspected.
 - Compiled `.dat` files under `Data/` are generated from PBS and are committed
   so the game remains immediately playable.
 - RPG Maker `.rxdata` map files are authoritative for maps and events.
-- `Data/Scripts.rxdata` is currently the only script bundle. No editable Ruby
-  source tree is present, so script changes should wait until source export or
-  restoration is handled as a separate, verified task.
+- `Data/Scripts/` contains the editable Pokémon Essentials v21.1 Ruby sources.
+- `Data/Scripts.rxdata` is now the small runtime loader for those sources.
+- `Data/ScriptsBackup.rxdata` is a generated local backup of the pre-extraction
+  bundle. The original bundle remains recoverable from Git history, so the
+  backup is not committed.
+- New game-specific systems should be isolated under `Plugins/Creature RPG/`
+  rather than mixed into the Essentials engine files whenever practical.
 
 ## Quarantined resources
 
@@ -60,7 +64,8 @@ provided with the example project and remain in place.
 - Review maps 22, 33, 42, 43, 47, 48, and 76 in RPG Maker XP.
 - Confirm every retained map has appropriate metadata, encounters, and valid
   transfers/connections.
-- Restore editable script sources before developing custom systems.
+- Complete the post-extraction gameplay smoke test before developing custom
+  systems.
 - Establish asset attribution and licensing records as resources are adopted.
 
 ## Safe first milestone

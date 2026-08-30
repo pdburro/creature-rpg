@@ -2,6 +2,7 @@
 Game.rxdata
 Save*.rxdata
 *.rxdata.bak
+Data/ScriptsBackup.rxdata
 
 # Logs, crash dumps, and temporary files
 *.log
