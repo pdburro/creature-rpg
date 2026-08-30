@@ -26,6 +26,9 @@ and the recommended workflow.
 See `docs/CURRENT_GOAL.md` for the active Pokémon-assisted farming vertical
 slice, its objectives, checkpoints, and definition of completion.
 
+See `docs/PROTOTYPE_MAP_PLAN.md` for the Lanesboro-inspired world layout and
+the build specification for the first development maps.
+
 ## Repository conventions
 
 - Commit PBS text changes together with their recompiled `Data` files.
