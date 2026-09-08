@@ -39,9 +39,9 @@ IDs in this table before editing PBS connections or metadata.
 | ID | Working map name | Size | Role | Required connections |
 | ---: | --- | ---: | --- | --- |
 | 77 | DEV - Prototype Farm | 40 x 35 | Home, crop testing, Pokémon helper testing | East to Central Town; farmhouse door |
-| TBD | DEV - Farmhouse | 20 x 15 | Bed, save/sleep loop, introductory scenes | Door to Prototype Farm |
+| 80 | DEV - Farmhouse | 20 x 15 | Bed, save/sleep loop, introductory scenes | Door to Prototype Farm |
 | 78 | DEV - Central Town | 50 x 40 | Walkable social and commercial hub | West to Farm; east to Trail; south bridge to Park |
-| TBD | DEV - Seed and General Store | 20 x 15 | Seeds, produce sales, supplies | Door to Central Town |
+| 81 | DEV - Seed and General Store | 20 x 15 | Seeds, produce sales, supplies | Door to Central Town |
 | TBD | DEV - Community Hall | 25 x 20 | Quests, meetings, festivals later | Door to Central Town |
 | TBD | DEV - Riverside Park | 40 x 30 | Fishing, gathering, community events | Bridge/transfer to Central Town |
 | 79 | DEV - Trail and Gathering Area | 60 x 25 | Foraging, wild Pokémon, resource loop | West to Central Town |
